@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"DDSPlugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/DDSPlugin/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libDDSPlugin.so.0.1.0"
+			],
+			"targetId" : "DDSPlugin::@adb91c622990215b9c71",
+			"targetIndex" : 4,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/DDSPlugin/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libDDSPlugin.so"
+			],
+			"targetId" : "DDSPlugin::@adb91c622990215b9c71",
+			"targetIndex" : 4,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "DDSPlugin",
+		"source" : "DDSPlugin"
+	}
+}

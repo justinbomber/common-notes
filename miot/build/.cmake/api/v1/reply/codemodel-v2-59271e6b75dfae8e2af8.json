@@ -1,0 +1,306 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7c5f63a059e24c50999a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "UtilsPlugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-UtilsPlugin-39fa5ab06f43600ebaf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "UtilsPlugin",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "CBLPlugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CBLPlugin-eead73a888261409ab4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "CBLPlugin",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "DDSPlugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-DDSPlugin-35517475f8ad3265896c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "DDSPlugin",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "PluginManager",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-PluginManager-24c80bada6151daa3610.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "PluginManager",
+					"targetIndexes" : 
+					[
+						6,
+						9
+					]
+				},
+				{
+					"build" : "CalculatePlugin",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CalculatePlugin-aec9a82ab45e16292133.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "CalculatePlugin",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PluginManagerTest",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "UtilsPlugin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "CBLPlugin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "DDSPlugin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "PluginManager",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "CalculatePlugin",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "CBLPlugin::@ebf7e4337ba1fca5cde7",
+					"jsonFile" : "target-CBLPlugin-e98cd308f41004ddc712.json",
+					"name" : "CBLPlugin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CBLPlugin_autogen::@ebf7e4337ba1fca5cde7",
+					"jsonFile" : "target-CBLPlugin_autogen-2be9efacbe1f1da77be4.json",
+					"name" : "CBLPlugin_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "CalculatePlugin::@e8aefd7aaa94a01d9a6c",
+					"jsonFile" : "target-CalculatePlugin-5993ec8f1bfbbedd7373.json",
+					"name" : "CalculatePlugin",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "CalculatePlugin_autogen::@e8aefd7aaa94a01d9a6c",
+					"jsonFile" : "target-CalculatePlugin_autogen-2d4175883150992c7938.json",
+					"name" : "CalculatePlugin_autogen",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DDSPlugin::@adb91c622990215b9c71",
+					"jsonFile" : "target-DDSPlugin-505660e30d0e6ec50cd0.json",
+					"name" : "DDSPlugin",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DDSPlugin_autogen::@adb91c622990215b9c71",
+					"jsonFile" : "target-DDSPlugin_autogen-e0dc4743e2ac3ba651bd.json",
+					"name" : "DDSPlugin_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PluginManager::@b8fc37a216936dd17aa2",
+					"jsonFile" : "target-PluginManager-58aa987adac37b33b6e6.json",
+					"name" : "PluginManager",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PluginManagerTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PluginManagerTest-05b08df2a549c337e490.json",
+					"name" : "PluginManagerTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PluginManagerTest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PluginManagerTest_autogen-e1c216aedb418ea6e336.json",
+					"name" : "PluginManagerTest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "PluginManager_autogen::@b8fc37a216936dd17aa2",
+					"jsonFile" : "target-PluginManager_autogen-216bc16d3f8e8685178e.json",
+					"name" : "PluginManager_autogen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UtilsPlugin::@e7936de21d949c2e79da",
+					"jsonFile" : "target-UtilsPlugin-b1c77fdf0432e6c9b115.json",
+					"name" : "UtilsPlugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UtilsPlugin_autogen::@e7936de21d949c2e79da",
+					"jsonFile" : "target-UtilsPlugin_autogen-5d2a00f424d58f8f4881.json",
+					"name" : "UtilsPlugin_autogen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/justin/project/MetaCares2.0/miot/build",
+		"source" : "/home/justin/project/MetaCares2.0/miot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

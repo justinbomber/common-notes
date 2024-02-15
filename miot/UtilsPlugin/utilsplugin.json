@@ -1,0 +1,22 @@
+{
+    "Name" : "UtilsPlugin",
+    "Version" : "0.1.0",
+    "CompatVersion" : "0.1.0",
+    "Vendor" : "Foyatech",
+    "Copyright" : "(C) 2022 Foyatech Co.,Ltd.",
+    "License" : [
+        "This is a default license bla",
+        "blubbblubb",
+        "end of terms"
+    ],
+    "Category" : "MIoT",
+    "Description" : [
+        "This plugin is just a test.",
+        "It demonstrates the great use of the plugin meta data."
+    ],
+    "Url" : "http://www.foyatech.com/miot/UtilsPlugin",
+    "Arguments" : [],
+    "Dependencies" : [       
+        { "Name" : "CBLPlugin", "Version" : "0.1.0", "Type" : "Required" }
+    ]
+}

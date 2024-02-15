@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"UtilsPlugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/UtilsPlugin/../../../../plugins",
+			"paths" : 
+			[
+				"UtilsPlugin/libUtilsPlugin.so.0.1.0"
+			],
+			"targetId" : "UtilsPlugin::@e7936de21d949c2e79da",
+			"targetIndex" : 10,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/UtilsPlugin/../../../../plugins",
+			"paths" : 
+			[
+				"UtilsPlugin/libUtilsPlugin.so"
+			],
+			"targetId" : "UtilsPlugin::@e7936de21d949c2e79da",
+			"targetIndex" : 10,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "UtilsPlugin",
+		"source" : "UtilsPlugin"
+	}
+}

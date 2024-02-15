@@ -1,0 +1,81 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "UtilsPlugin::@e7936de21d949c2e79da"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "CBLPlugin::@ebf7e4337ba1fca5cde7"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "DDSPlugin::@adb91c622990215b9c71"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PluginManager::@b8fc37a216936dd17aa2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "CalculatePlugin::@e8aefd7aaa94a01d9a6c"
+		}
+	],
+	"id" : "PluginManagerTest_autogen::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "PluginManagerTest_autogen",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/PluginManagerTest_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/PluginManagerTest_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

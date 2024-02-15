@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"PluginManager/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "$$PWD/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libPluginManager.so.0.1.0"
+			],
+			"targetId" : "PluginManager::@b8fc37a216936dd17aa2",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "$$PWD/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libPluginManager.so"
+			],
+			"targetId" : "PluginManager::@b8fc37a216936dd17aa2",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "PluginManager",
+		"source" : "PluginManager"
+	}
+}

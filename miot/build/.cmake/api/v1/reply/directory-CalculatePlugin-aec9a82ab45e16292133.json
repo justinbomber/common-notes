@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CalculatePlugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/CalculatePlugin/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libCalculatePlugin.so.0.1.0"
+			],
+			"targetId" : "CalculatePlugin::@e8aefd7aaa94a01d9a6c",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/CalculatePlugin/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libCalculatePlugin.so"
+			],
+			"targetId" : "CalculatePlugin::@e8aefd7aaa94a01d9a6c",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CalculatePlugin",
+		"source" : "CalculatePlugin"
+	}
+}

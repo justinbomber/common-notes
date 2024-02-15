@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CBLPlugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/CBLPlugin/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libCBLPlugin.so.0.1"
+			],
+			"targetId" : "CBLPlugin::@ebf7e4337ba1fca5cde7",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/justin/project/MetaCares2.0/miot/CBLPlugin/../../../../plugins",
+			"paths" : 
+			[
+				"bin/libCBLPlugin.so"
+			],
+			"targetId" : "CBLPlugin::@ebf7e4337ba1fca5cde7",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CBLPlugin",
+		"source" : "CBLPlugin"
+	}
+}

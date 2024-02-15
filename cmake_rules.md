@@ -36,6 +36,8 @@
 8. **訊息和調試：**
   - `message(狀態信息)`:在執行CMake配置過程中打印消息。`狀態信息`是要打印的文本，這對於調試CMake腳本或向用戶提供構建過程的信息非常有用。
 
+> 注意: `set` 用法會有特殊用法出現。
+
 ### 執行順序
 ```cmake
 # 1. 項目和最小版本要求
@@ -121,21 +123,91 @@ SOURCES += src/*.cpp
 **鏈接庫**
 - **CMake:**
 ```cmake
+find_package(Boost REQUIRED COMPONENTS filesystem)
+target_link_libraries(MyExecutable Boost::filesystem)
 ```
 - **qmake:**
 ```qmake
+CONFIG += link_pkgconfig
+PKGCONFIG += boost_filesystem
 ```
 **安裝目標**
 - **CMake:**
 ```cmake
+install(TARGETS MyExecutable DESTINATION bin)
 ```
-- **qmake:**
+- **qmake (較少直接在qmake中處理安裝規則，通常使用QMake的INSTALLS關鍵字):**
 ```qmake
+target.path = /usr/local/bin
+INSTALLS += target
 ```
 **添加頭文件目錄**
 - **CMake:**
 ```cmake
+include_directories(${YOUR_INCLUDE_DIR})
 ```
 - **qmake:**
 ```qmake
+INCLUDEPATH += ${YOUR_INCLUDE_DIR}
 ```
+
+## 3. 指令使用方法
+
+**規則：** 
+- 通常都會先建立`build`目錄後在當中進行編譯。
+```shell
+# 目錄結構如下
+.
+├── build
+├── CMakeLists.txt
+├── func1.cpp
+├── func1.h
+└── main.cpp
+
+# 使用以下命令編譯
+cd build
+cmake ..
+make
+```
+
+- 若要同時編譯多個資料夾，則每個子資料夾都需包含`CMakeLists.txt`，最後用最外層的`CMakeLists.txt`來編譯進`build`目錄當中。
+> 注意:需自行定義執行檔(`add_executable`)及.so(不加`add_executable`)的編譯方式
+```shell
+# 目錄結構如下
+.
+├── build
+├── CalculatePlugin
+│   └── CMakeLists.txt
+├── CBLPlugin
+│   └── CMakeLists.txt
+├── DDSPlugin
+│   └── CMakeLists.txt
+├── PluginManager
+│   └── CMakeLists.txt
+├── UtilsPlugin
+│   └── CMakeLists.txt
+└── CMakeLists.txt
+
+# 使用以下命令編譯
+cd build
+cmake ..
+make
+```
+
+**在子目錄中：**
+```cmake
+# 指定生成動態庫
+add_library(${PROJECT_NAME} SHARED ${SOURCES} ${HEADERS})
+
+# 指定生成靜態庫
+add_library(${PROJECT_NAME} STATIC ${SOURCES} ${HEADERS})
+
+# --------上方二擇一----------
+
+# 指定檔案編譯後的版本
+set_target_properties(${PROJECT_NAME} PROPERTIES VERSION ${PROJECT_VERSION})
+
+# 指定library的輸出位置
+set_target_properties(${PROJECT_NAME} PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+```
+
